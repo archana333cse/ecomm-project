@@ -1,0 +1,120 @@
+{
+  "seller": [
+    {
+      "id": "7394",
+      "name": "Archna Pandey",
+      "email": "ap@gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "61a5",
+      "name": "Roli Pandey",
+      "email": "rp@gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "edf2",
+      "name": "ap",
+      "pass": "abc@123",
+      "email": "app@gmail.com"
+    },
+    {
+      "id": "bf6c",
+      "name": "sp",
+      "pass": "sp@123",
+      "email": "sp@gmail.com"
+    },
+    {
+      "id": "a16e",
+      "name": "bholi",
+      "pass": "abc@123",
+      "email": "bholi@gmail.com"
+    },
+    {
+      "id": "59f2",
+      "name": "vp",
+      "pass": "ab@123",
+      "email": "vp@gmail.com"
+    },
+    {
+      "id": "ffe0",
+      "name": "Shubhi",
+      "pass": "abc@123",
+      "email": "shubhi@gmail.com"
+    },
+    {
+      "id": "6ff4",
+      "name": "Pritu",
+      "pass": "abc@123",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": "0904",
+      "name": "deepa",
+      "pass": "abc@123",
+      "email": "deepa@gmail.com"
+    },
+    {
+      "id": "8a77",
+      "name": "abcd",
+      "pass": "abc@123",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": "b33a",
+      "name": "Archna Pandey",
+      "password": "abcd",
+      "email": "app1@gmail.com"
+    },
+    {
+      "id": "29ac",
+      "name": "bholi",
+      "password": "abcd",
+      "email": "b@gmail.com"
+    },
+    {
+      "id": "cd9c",
+      "name": "ap",
+      "password": "abc@123",
+      "email": "ap12@gmail.com"
+    }
+  ],
+  "product": [
+    {
+      "id": "b8c6",
+      "name": "iPhone 14",
+      "price": "100000",
+      "category": "mobile",
+      "color": "black",
+      "image": "https://iplanet.one/cdn/shop/files/iPhone_14_Plus_Blue_PDP_Image_Position-1A__WWEN_20fc3205-e675-4d4e-88d8-8cb06e5ccded.jpg?v=1691140387",
+      "description": "hello this is description"
+    },
+    {
+      "id": "745f",
+      "name": "samsugn m15",
+      "price": "25000",
+      "color": "black",
+      "category": "mobile",
+      "description": "this is samsung m15 phone.",
+      "image": "https://m.media-amazon.com/images/I/81BTRVfsuFL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "429e",
+      "name": "boat",
+      "price": "2999",
+      "color": "white",
+      "category": "earbuds",
+      "description": "this is boat earbuds",
+      "image": "https://m.media-amazon.com/images/I/51pycg0MGxL.jpg"
+    },
+    {
+      "id": "74be",
+      "name": "boat",
+      "price": "2999",
+      "color": "white",
+      "category": "earbuds",
+      "description": "this is description",
+      "image": "https://m.media-amazon.com/images/I/51pycg0MGxL.jpg"
+    }
+  ]
+}

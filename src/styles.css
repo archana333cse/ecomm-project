@@ -13,6 +13,20 @@ body{
     flex-direction: column;
     width: 300px;
     }
+    .login-form{
+        text-align: center;
+        display: flex;
+        margin: auto auto;
+        flex-direction: column;
+        width: 300px;
+        }
+    .add-new-product{
+        text-align: center;
+        display: flex;
+        margin: auto auto;
+        flex-direction: column;
+        width: 300px;
+    }
     .form-input{
         height: 35px;
         margin-bottom: 20px;
@@ -21,10 +35,28 @@ body{
         color: blueviolet;
     
     }
+    textarea{
+        height: 50px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        border: 1px solid blueviolet;
+        color: blueviolet;
+        max-width: 100%;
+    }
     .form-button{
        height: 35px;
        border: 1px solid blueviolet;
        cursor: pointer;
-       width: 50%;
+       width: 40%;
        margin: auto auto;
+       box-shadow: 2px 6px 4px rgba(0, 0, 0, .2);
+       transition: all 0.3s ease-in-out;
+       background-color: white;
     }
+    .form-button:hover{
+
+       background-color: blueviolet;
+       color: white;
+        box-shadow: 2px 8px 6px rgba(0, 0, 0, .3);
+        transform: scale(1.05);
+     }

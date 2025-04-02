@@ -11,13 +11,19 @@
     margin-left: 1%;
     font-size: 40px;
 }
+.nav h1 a{
+    text-decoration: none;
+}
 .nav ul{
     display: inline-flex;
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 1%;
+    
     padding: 0;
+}
+.menuType{
+    margin-right: 1%;
 }
 .nav ul li{
     padding-left: 15px;
@@ -47,4 +53,20 @@
     border: 1px solid blueviolet;
     border-left: 0;
     cursor: pointer;
+}
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff8c00, #8a2be2); 
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.logo span {
+    color: #ff8c00;
 }

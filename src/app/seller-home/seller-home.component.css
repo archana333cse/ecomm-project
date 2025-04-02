@@ -1,0 +1,17 @@
+.product-table{
+    text-align: left;
+    color: blueviolet;
+    border-collapse: collapse;
+    max-height: 85vh;
+    max-width: 100%;
+    overflow: auto;
+}
+.product-table td,th{
+border: 1px solid blueviolet;
+padding: 10px;
+width: auto;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
