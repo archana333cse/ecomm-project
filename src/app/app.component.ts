@@ -6,10 +6,10 @@ import { HomeComponent } from './home/home.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { SellerService } from './services/seller.service';
 import { CommonModule } from '@angular/common';
-
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome'
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, RouterLink, RouterLinkActive, FormsModule,HomeComponent,SellerAuthComponent,CommonModule],
+  imports: [RouterOutlet, HeaderComponent, RouterLink, RouterLinkActive, FormsModule,HomeComponent,SellerAuthComponent,CommonModule,FontAwesomeModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

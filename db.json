@@ -81,40 +81,22 @@
   ],
   "product": [
     {
-      "id": "b8c6",
-      "name": "iPhone 14",
-      "price": "100000",
-      "category": "mobile",
-      "color": "black",
-      "image": "https://iplanet.one/cdn/shop/files/iPhone_14_Plus_Blue_PDP_Image_Position-1A__WWEN_20fc3205-e675-4d4e-88d8-8cb06e5ccded.jpg?v=1691140387",
-      "description": "hello this is description"
+      "name": "HP laptop",
+      "price": "68000",
+      "color": "silver",
+      "category": "laptop",
+      "description": "this is hp laptop",
+      "image": "https://cdn.moglix.com/p/MhnRhVRqlHsa2-xxlarge.jpg",
+      "id": "4c8f"
     },
     {
-      "id": "745f",
-      "name": "samsugn m15",
-      "price": "25000",
-      "color": "black",
-      "category": "mobile",
-      "description": "this is samsung m15 phone.",
-      "image": "https://m.media-amazon.com/images/I/81BTRVfsuFL._AC_UF1000,1000_QL80_.jpg"
-    },
-    {
-      "id": "429e",
-      "name": "boat",
-      "price": "2999",
+      "name": "sansung",
+      "price": "58900",
       "color": "white",
-      "category": "earbuds",
-      "description": "this is boat earbuds",
-      "image": "https://m.media-amazon.com/images/I/51pycg0MGxL.jpg"
-    },
-    {
-      "id": "74be",
-      "name": "boat",
-      "price": "2999",
-      "color": "white",
-      "category": "earbuds",
-      "description": "this is description",
-      "image": "https://m.media-amazon.com/images/I/51pycg0MGxL.jpg"
+      "category": "laptop",
+      "description": "this is updated description",
+      "image": "https://cdn.moglix.com/p/MhnRhVRqlHsa2-xxlarge.jpg",
+      "id": "8ddc"
     }
   ]
 }
