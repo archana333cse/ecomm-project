@@ -90,13 +90,49 @@
       "id": "4c8f"
     },
     {
-      "name": "sansung",
-      "price": "58900",
-      "color": "white",
-      "category": "laptop",
-      "description": "this is updated description",
-      "image": "https://cdn.moglix.com/p/MhnRhVRqlHsa2-xxlarge.jpg",
+      "name": "sansung m15",
+      "price": "26999",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "Buy Campus Women's OGL-01 White Casual Sneakers for Women at Best Price @ Tata CLiQ",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/id/feature/165295419/id-feature-galaxy-m15-5g-sm-m156-541878443?$FB_TYPE_I_JPG$",
       "id": "8ddc"
+    },
+    {
+      "id": "543f",
+      "name": "Shoe for women",
+      "price": "1999",
+      "color": "white",
+      "category": "Footwear",
+      "description": "Buy Campus Women's OGL-01 White Casual Sneakers for Women at Best Price @ Tata CLiQ",
+      "image": "https://img.tatacliq.com/images/i17//437Wx649H/MP000000018446676_437Wx649H_202405170815411.jpeg"
+    },
+    {
+      "id": "569a",
+      "name": "Women Tshirt",
+      "price": "999",
+      "color": "black",
+      "category": "Women Fashion",
+      "description": "Women's Scott Polo T-Shirts",
+      "image": "https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,t_productPageHeroGalleryTransformation_v2,w_auto/India%20LOB/Clothing%20and%20Bags/Women's%20Scott%20Polo%20T-Shirts/IN_Women_s-Scott-Polo-T-Shirts_Hero-image_02"
+    },
+    {
+      "id": "a974",
+      "name": "Mouse",
+      "price": "2999",
+      "color": "Black",
+      "category": "Electronic Device",
+      "description": "Dell Pro Mouse - MS300",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/images/products/electronics-and-accessories/dell/pointing-devices/ms300/ms300-kbm-04-bk.psd?fmt=pjpg&pscan=auto&scl=1&wid=4141&hei=3475&qlt=100,1&resMode=sharp2&size=4141,3475&chrss=full&imwidth=5000"
+    },
+    {
+      "name": "Mobile",
+      "price": "68000",
+      "color": "silver",
+      "category": "mobile",
+      "description": "thsj fhfh ffh",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQY69bK0JF290wlFHtmoxfKDp46NUZFxOVuA&s",
+      "id": "fkWeVnX"
     }
   ]
 }

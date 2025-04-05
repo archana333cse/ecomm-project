@@ -1,0 +1,21 @@
+.footer-wrapper{
+   background-color: beige;
+   padding: 10px;
+   position: fixed;
+   width: 90%;
+   bottom: 0;
+}
+.footer-wrapper ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer-wrapper ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.footer-wrapper p{
+   font-size: 18px;
+    text-align: center;
+}
