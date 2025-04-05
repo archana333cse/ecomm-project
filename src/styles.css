@@ -54,8 +54,8 @@ textarea {
     height: 35px;
     border: 1px solid blueviolet;
     cursor: pointer;
-    width: 40%;
-    margin: auto auto;
+    width: auto;
+    margin-right: 10px;
     box-shadow: 2px 6px 4px rgba(0, 0, 0, .2);
     transition: all 0.3s ease-in-out;
     background-color: white;

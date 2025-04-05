@@ -4,10 +4,11 @@ import { ProductService } from '../services/product.service';
 import { product } from '../data-type';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [NgbCarouselModule,FormsModule,CommonModule],
+  imports: [NgbCarouselModule,FormsModule,CommonModule,RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

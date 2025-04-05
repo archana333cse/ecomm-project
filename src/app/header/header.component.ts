@@ -15,6 +15,7 @@ import { product } from '../data-type';
 export class HeaderComponent implements OnInit {
   menuType: string = 'default';
   sellerName: string = '';
+  userName: string = '';
   searchResult: undefined | product[]
   constructor(private route: Router, private product: ProductService) {
 
@@ -25,24 +26,32 @@ export class HeaderComponent implements OnInit {
       if (val.url) {
         if (localStorage.getItem('seller') && val.url.includes('seller')) {
           //console.warn('In Seller Area')
-          this.menuType = 'seller'
-          if (localStorage.getItem('seller')) {
-            let sellerStore = localStorage.getItem('seller');
-            let sellerData = sellerStore && JSON.parse(sellerStore)[0]
-            this.sellerName = sellerData.name
-
-          }
-        } else {
+          let sellerStore = localStorage.getItem('seller');
+          let sellerData = sellerStore && JSON.parse(sellerStore)[0]
+          this.sellerName = sellerData.name
+          this.menuType = 'seller';
+        }
+        else if (localStorage.getItem('user')) {
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.userName = userData.name;
+          this.menuType = 'user';
+        }
+        else {
           //console.warn("Outside seller area")
           this.menuType = 'default'
         }
-
       }
+
     })
   }
   logOut() {
     localStorage.removeItem('seller')
     this.route.navigate(['/'])
+  }
+  userlogOut() {
+    localStorage.removeItem('user')
+    this.route.navigate(['/user-auth'])
   }
   searchProducts(query: KeyboardEvent) {
     if (query) {
@@ -62,5 +71,8 @@ export class HeaderComponent implements OnInit {
   submitSearch(val: string) {
     console.warn(val);
     this.route.navigate([`search/${val}`])
+  }
+  rediretToDetails(id: number) {
+    this.route.navigate([`/details/` + id])
   }
 }

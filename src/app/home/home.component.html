@@ -2,7 +2,9 @@
 	<ngb-carousel style="margin-top: 50px;">
 		<ng-template *ngFor="let product of popularProducts" ngbSlide>
 			<div class="picsum-img-wrapper">
+                <a routerLink="/details/{{product.id}}">
 				<img class="product-header-img" src="{{product.image}}" alt="Product Image" />
+            </a>
 			</div>
 			<div class="carousel-caption">
 				<h3>{{ product.name }}</h3>
@@ -28,7 +30,7 @@
                 </div>
             </div>
             <div class="product-footer">
-                <a href="#">View Details</a>
+                <a routerLink="/details/{{items.id}}">View Details</a>
                 <a href="#">Add to cart</a>
             </div>
         </div>
