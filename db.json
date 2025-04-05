@@ -134,5 +134,79 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQY69bK0JF290wlFHtmoxfKDp46NUZFxOVuA&s",
       "id": "fkWeVnX"
     }
+  ],
+  "user": [
+    {
+      "name": "roli",
+      "email": "rp@gmail.com",
+      "password": "abc",
+      "id": 1
+    },
+    {
+      "name": "ap",
+      "email": "ap@gmail.com",
+      "password": "ap",
+      "id": 2
+    },
+    {
+      "name": "rp",
+      "email": "rp@gmail.com",
+      "password": "rp123",
+      "id": 3
+    },
+    {
+      "name": "rp",
+      "email": "rp@gmail.com",
+      "password": "abc123",
+      "id": 4
+    },
+    {
+      "name": "abc",
+      "email": "abc@user.com",
+      "password": "1236",
+      "id": 5
+    },
+    {
+      "name": "mno",
+      "email": "mno@gmail.com",
+      "password": "mno123",
+      "id": 6
+    },
+    {
+      "name": "uvw",
+      "email": "test2@jn2tech.com",
+      "password": "fhfhf",
+      "id": 7
+    },
+    {
+      "name": "Archna Pandey",
+      "email": "ap@gmail.com",
+      "password": "789",
+      "id": 8
+    },
+    {
+      "name": "Archna Pandey",
+      "email": "test2@jn2tech.com",
+      "password": "4563",
+      "id": 9
+    },
+    {
+      "name": "bholi",
+      "email": "rp@gmail.com",
+      "password": "7896",
+      "id": 10
+    },
+    {
+      "name": "a p ",
+      "email": "rp@gmail.com",
+      "password": "1236",
+      "id": 11
+    },
+    {
+      "name": "Archna Pandey",
+      "email": "ap@gmail.com",
+      "password": "123",
+      "id": 12
+    }
   ]
 }
