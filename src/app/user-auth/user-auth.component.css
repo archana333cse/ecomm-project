@@ -1,4 +1,4 @@
-.user-auth{
+.user-signup{
     flex:1;
     text-align: center;
     color: blueviolet;
@@ -7,4 +7,19 @@
     background-color: white;
     padding: 20px 35px;
     width: 400px;
+}
+.user-login{
+    flex:1;
+    text-align: center;
+    color: blueviolet;
+    margin: 50px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 20px 35px;
+    width: 400px;
+}
+a{
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
 }

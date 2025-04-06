@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { signUp } from '../data-type';
+import { logIn, signUp } from '../data-type';
 import { UserService } from '../services/user.service';
 
 @Component({
@@ -11,13 +11,23 @@ import { UserService } from '../services/user.service';
   styleUrl: './user-auth.component.css'
 })
 export class UserAuthComponent implements OnInit{
+  showLogin=false;
   constructor(private user:UserService){}
   ngOnInit(): void {
-    
+    this.user.userAuthReload();
    
   }
   signUp(data:signUp){
     this.user.userSignUp(data);
+  }
+  logIn(data:logIn){
+    this.user.userLogIn(data);
+  }
+  openLogin(){
+    this.showLogin=true;
+  }
+  openSignIn(){
+    this.showLogin=false;
   }
 
 }

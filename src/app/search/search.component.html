@@ -1,5 +1,6 @@
 
-<div class="row search-item" *ngFor="let item of searchResult">
+<div style="margin-bottom: 100px;">
+<div  class="row search-item" *ngFor="let item of searchResult">
    <div class="col-sm-3">
     <a routerLink="/details/{{item.id}}"><img src="{{item.image}}" alt="product image"></a>
     
@@ -10,6 +11,7 @@
     <p><span>Color:{{item.color}}</span><span>Category: {{item.category}}</span></p>
     <p>{{item.description}}</p>
    </div>
+</div>
 </div>
 <div *ngIf="!searchResult || searchResult.length === 0" class="error-message">
     <h2>{{productNotFound}}</h2>

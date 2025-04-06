@@ -1,9 +1,11 @@
 .footer-wrapper{
    background-color: #fff;
-   padding: 5px;
+   padding: 10px;
    position: fixed;
-   width: 90%;
+   right: 0;
+   left: 0;
    bottom: 0;
+   z-index: 1000;
 }
 .footer-wrapper ul{
     display: flex;
