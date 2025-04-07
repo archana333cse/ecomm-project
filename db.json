@@ -219,5 +219,79 @@
       "password": "abc",
       "id": 14
     }
+  ],
+  "cart": [
+    {
+      "name": "HP laptop",
+      "price": "68000",
+      "color": "silver",
+      "category": "laptop",
+      "description": "this is hp laptop..,,..,,..,,",
+      "image": "https://cdn.moglix.com/p/MhnRhVRqlHsa2-xxlarge.jpg",
+      "quantity": 1,
+      "userId": 2,
+      "productId": "4c8f",
+      "id": 1
+    },
+    {
+      "name": "HP laptop",
+      "price": "68000",
+      "color": "silver",
+      "category": "laptop",
+      "description": "this is hp laptop..,,..,,..,,",
+      "image": "https://cdn.moglix.com/p/MhnRhVRqlHsa2-xxlarge.jpg",
+      "quantity": 1,
+      "userId": 2,
+      "productId": "4c8f",
+      "id": 2
+    },
+    {
+      "name": "Women Tshirt",
+      "price": "999",
+      "color": "black",
+      "category": "Women Fashion",
+      "description": "Women's Scott Polo T-Shirts",
+      "image": "https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,t_productPageHeroGalleryTransformation_v2,w_auto/India%20LOB/Clothing%20and%20Bags/Women's%20Scott%20Polo%20T-Shirts/IN_Women_s-Scott-Polo-T-Shirts_Hero-image_02",
+      "quantity": 1,
+      "productId": "569a",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Shoe for women",
+      "price": "1999",
+      "color": "white",
+      "category": "Footwear",
+      "description": "Buy Campus Women's OGL-01 White Casual Sneakers for Women at Best Price @ Tata CLiQ",
+      "image": "https://img.tatacliq.com/images/i17//437Wx649H/MP000000018446676_437Wx649H_202405170815411.jpeg",
+      "quantity": 1,
+      "productId": "543f",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "Mouse",
+      "price": "2999",
+      "color": "Black",
+      "category": "Electronic Device",
+      "description": "Dell Pro Mouse - MS300",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/images/products/electronics-and-accessories/dell/pointing-devices/ms300/ms300-kbm-04-bk.psd?fmt=pjpg&pscan=auto&scl=1&wid=4141&hei=3475&qlt=100,1&resMode=sharp2&size=4141,3475&chrss=full&imwidth=5000",
+      "quantity": 1,
+      "userId": 2,
+      "productId": "a974",
+      "id": 5
+    },
+    {
+      "name": "HP laptop",
+      "price": "68000",
+      "color": "silver",
+      "category": "laptop",
+      "description": "this is hp laptop..,,..,,..,,",
+      "image": "https://cdn.moglix.com/p/MhnRhVRqlHsa2-xxlarge.jpg",
+      "quantity": 1,
+      "productId": "4c8f",
+      "userId": 3,
+      "id": 6
+    }
   ]
 }
