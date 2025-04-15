@@ -23,6 +23,23 @@ body {
     flex-direction: column;
     width: 300px;
 }
+.common-form {
+    text-align: center;
+    display: flex;
+    margin: auto auto;
+    flex-direction: column;
+    width: 300px;
+}
+.form-container{
+    flex:1;
+    text-align: center;
+    color: blueviolet;
+    margin: 50px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 20px 35px;
+    width: 400px;
+}
 
 .add-new-product {
     text-align: center;
@@ -94,4 +111,7 @@ button:disabled{
 .auth-error{
     text-align: left;
     color: red;
+}
+.max-width{
+    width: 100%;
 }
