@@ -27,8 +27,6 @@ export class CheckoutComponent implements OnInit{
       })
 
         this.totalPrice=price+(price/10)+100-(price/10)
-        console.warn(this.totalPrice)
-      
       
     })
    

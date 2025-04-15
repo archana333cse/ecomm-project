@@ -24,7 +24,6 @@ export class SellerHomeComponent implements OnInit {
   }
 
   deleteProduct(id:number){
-    console.warn(id)
    this.product.deleteProduct(id).subscribe((result)=>{
     if(result){
     this.deleteProductMessage="Product deleted successfully!!"
@@ -37,7 +36,6 @@ export class SellerHomeComponent implements OnInit {
   }
   pList(){
     this.product.productList().subscribe((result) => {
-      console.warn(result)
       if(result){
         this.productList=result;
       }

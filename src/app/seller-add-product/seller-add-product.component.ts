@@ -16,7 +16,6 @@ export class SellerAddProductComponent {
   }
   submit(data:product){
     this.product.addProduct(data).subscribe((result)=>{
-      console.warn(result)
       if(result){
         this.addProductMessage="Product added successfully!";
       }

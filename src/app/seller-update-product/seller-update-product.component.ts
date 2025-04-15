@@ -19,16 +19,13 @@ export class SellerUpdateProductComponent implements OnInit {
   ngOnInit(): void {
    this.route.paramMap.subscribe(param=>{
     let productId=param.get('id')
-    console.warn(productId)
     productId && this.product.getProduct(productId).subscribe((data)=>{
-      console.warn(data)
       this.productData=data;
     })
    })
   }
    
   editProduct(data:product){
-   console.warn(data)
    if(this.productData){
     data.id=this.productData.id;
    }
