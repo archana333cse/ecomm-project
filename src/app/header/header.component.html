@@ -1,6 +1,6 @@
 <nav class="nav">
     <h1 class="logo" title="Go to Home Page"><a routerLink=""> Shop<span>Ease</span></a></h1>
-    <div *ngIf="menuType==='default'" class="nav-search">
+    <div *ngIf="menuType!=='seller'" class="nav-search">
        <input type="text" 
        #searchInput
        (keyup)="searchProducts($event)" (blur)="hideSearch()" placeholder="Search products">
@@ -30,6 +30,7 @@
             <li><a routerLink="/seller-auth">Seller</a></li>
             <li><a>{{userName | titlecase}}</a></li>
             <li><a routerLink="cart-page">Cart({{cartItems}})</a></li>
+            <li><a routerLink="my-orders">My Order</a></li>
             <li><a (click)="userlogOut()">LogOut</a></li>
         </ul>
     </div>

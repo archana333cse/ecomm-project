@@ -222,18 +222,6 @@
   ],
   "cart": [
     {
-      "name": "Women Tshirt",
-      "price": "999",
-      "color": "black",
-      "category": "Women Fashion",
-      "description": "Women's Scott Polo T-Shirts",
-      "image": "https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,t_productPageHeroGalleryTransformation_v2,w_auto/India%20LOB/Clothing%20and%20Bags/Women's%20Scott%20Polo%20T-Shirts/IN_Women_s-Scott-Polo-T-Shirts_Hero-image_02",
-      "quantity": 1,
-      "productId": "569a",
-      "userId": 2,
-      "id": 3
-    },
-    {
       "name": "HP laptop",
       "price": "68000",
       "color": "silver",
@@ -244,18 +232,6 @@
       "productId": "4c8f",
       "userId": 3,
       "id": 6
-    },
-    {
-      "name": "HP laptop",
-      "price": "68000",
-      "color": "silver",
-      "category": "laptop",
-      "description": "this is hp laptop..,,..,,..,,",
-      "image": "https://cdn.moglix.com/p/MhnRhVRqlHsa2-xxlarge.jpg",
-      "quantity": 5,
-      "userId": 2,
-      "productId": "4c8f",
-      "id": 14
     }
   ],
   "orders": [
@@ -266,30 +242,6 @@
       "totalPrice": 341099,
       "userId": 2,
       "id": 1
-    },
-    {
-      "email": "",
-      "address": "",
-      "contact": "",
-      "totalPrice": 341099,
-      "userId": 2,
-      "id": 2
-    },
-    {
-      "email": "",
-      "address": "",
-      "contact": "",
-      "totalPrice": 341099,
-      "userId": 2,
-      "id": 3
-    },
-    {
-      "email": "",
-      "address": "",
-      "contact": "",
-      "totalPrice": 341099,
-      "userId": 2,
-      "id": 4
     },
     {
       "email": "",
